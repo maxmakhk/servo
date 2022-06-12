@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="O|Up6S_7{6gcHZc?e!IY" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="wD5_hu0f5)pD8#^*?sS8"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        . # . # . 
+        . # . # . 
+        . # # # .
+        `</field><next><block type="servosetrange" id="(#pUO9#v$o_`WdWzr$[l"><field name="servo">servos.P0</field><value name="minAngle"><shadow type="math_number_minmax" id="Ey~_Cm/=1~Ln#;/Wm1Fz"><mutation min="0" max="90" label="MinAngle" precision="0"/><field name="SLIDER">0</field></shadow></value><value name="maxAngle"><shadow type="math_number_minmax" id="Bi`{-ocM7Hre#(?smLnI"><mutation min="90" max="180" label="MaxAngle" precision="0"/><field name="SLIDER">180</field></shadow></value><next><block type="servoservosetangle" id="f[9|Tqg)K0OPAQoyR83G"><field name="servo">servos.P0</field><value name="degrees"><shadow type="protractorPicker" id="h7Uqe=t2AXU{Y^jy~CQK"><field name="angle">90</field></shadow></value></block></next></block></next></block></statement></block><block type="device_forever" id="HO2:Y2uE5yC{K(oSJcw:" x="659" y="88"/><block type="input_logo_event" id="ZLTOe@nG%=JyEUV^n?}b" x="366" y="471"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="w0yq%rzIB)_@m$-q8nl2"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        . # . # . 
+        . # # # .
+        `</field><next><block type="controls_repeat_ext" id="NI/IA[]P~gy}(iSo4x?)"><value name="TIMES"><shadow type="math_whole_number" id="08.1Ahlpyo5i3_Ca{~U;"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="servoservosetangle" id="[w2+7:$JF[Z;4~)%b5}3"><field name="servo">servos.P0</field><value name="degrees"><shadow type="protractorPicker" id="97zPTTqT[93r@*8XLKeY"><field name="angle">30</field></shadow></value><next><block type="device_pause" id="S3CUh3m!6;=o2Fcq`]!J"><value name="pause"><shadow type="timePicker" id="toURw@QbOMafSDUCLWAH"><field name="ms">200</field></shadow></value><next><block type="servoservosetangle" id="g*C~!Yy(,7_ie0weAi1M"><field name="servo">servos.P0</field><value name="degrees"><shadow type="protractorPicker" id="tVKj`af39xD?|3!=v2i@"><field name="angle">150</field></shadow></value><next><block type="device_pause" id="0.h6J}i*xIqwh32MJ+y_"><value name="pause"><shadow type="timePicker" id="I2dIjvvy@Kz`wO~)f}LE"><field name="ms">200</field></shadow></value></block></next></block></next></block></next></block></statement><next><block type="device_show_leds" id="+fY~2J2,:7ntBRJJYjnn"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        . # . # . 
+        . # . # . 
+        . # # # .
+        `</field><next><block type="servoservosetangle" id="mHvh/I599twMpGxe]z^:"><field name="servo">servos.P0</field><value name="degrees"><shadow type="protractorPicker" id="q+Z+RY?[jzS!?/U:$=Rm"><field name="angle">90</field></shadow></value><next><block type="servoservostop" id="!)gb`-d?i2Od}._w@Hcs"><field name="servo">servos.P0</field></block></next></block></next></block></next></block></next></block></statement></block><block type="servoservostop" id="`*#t?43|k(x~M~_z#@2C" disabled="true" x="818" y="459"><field name="servo">servos.P0</field></block><block type="servoservorun" id="AjpM^Ho{P3P#L|=ykY=p" disabled="true" x="990" y="813"><field name="servo">servos.P0</field><value name="speed"><shadow type="speedPicker" id="{N_nt-!.$qPUZ/GsNf[a" disabled="true"><field name="speed">50</field></shadow></value></block></xml>
